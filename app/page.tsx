@@ -123,9 +123,14 @@ export default function Home() {
         <div className='mt-8 pt-4 border-t border-neutral-800 flex items-center justify-center gap-2 text-neutral-600 text-xs text-center'>
           <Globe size={12} />
           <span>Verified Asset held by developers of</span>
-          <span className='text-neutral-400 hover:text-white cursor-pointer transition-colors font-medium'>
+          <a 
+            href='https://yallabus.app' 
+            target='_blank' 
+            rel='noopener noreferrer'
+            className='text-neutral-400 hover:text-white cursor-pointer transition-colors font-medium'
+          >
             YallaBus.app
-          </span>
+          </a>
         </div>
       </main>
     </div>
