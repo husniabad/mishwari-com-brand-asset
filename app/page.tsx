@@ -120,17 +120,20 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <div className='mt-8 pt-4 border-t border-neutral-800 flex items-center justify-center gap-2 text-neutral-600 text-xs text-center'>
-          <Globe size={12} />
-          <span>Verified Asset held by developers of</span>
-          <a 
-            href='https://yallabus.app' 
-            target='_blank' 
-            rel='noopener noreferrer'
-            className='text-neutral-400 hover:text-white cursor-pointer transition-colors font-medium'
-          >
-            YallaBus.app
-          </a>
+        <div className='mt-8 pt-4   border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-center gap-2 text-neutral-600 text-xs text-center'>
+          <div className='flex gap-2'>
+            <Globe size={12} />
+            <span>Verified Asset held by developers of</span>
+          </div>
+          <div>
+            <a
+              href='https://yallabus.app'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-neutral-400 hover:text-white cursor-pointer transition-colors font-medium'>
+              YallaBus.app
+            </a>
+          </div>
         </div>
       </main>
     </div>
