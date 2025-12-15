@@ -67,6 +67,7 @@ export default function RootLayout({
               name: 'Mishwari.com Premium Domain',
               description:
                 'The premium internet domain name Mishwari.com (مشواري) is available for transfer.',
+              image: '/yallabuslogo.jpeg',
               brand: {
                 '@type': 'Brand',
                 name: 'Mishwari',
