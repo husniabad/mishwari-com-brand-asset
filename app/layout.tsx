@@ -67,7 +67,7 @@ export default function RootLayout({
               name: 'Mishwari.com Premium Domain',
               description:
                 'The premium internet domain name Mishwari.com (مشواري) is available for transfer.',
-              image: '/yallabuslogo.jpeg',
+              image: 'https://mishwari.com/yallabuslogo.jpeg',
               brand: {
                 '@type': 'Brand',
                 name: 'Mishwari',
@@ -76,7 +76,7 @@ export default function RootLayout({
                 '@type': 'Offer',
                 url: 'https://mishwari.com',
                 priceCurrency: 'USD',
-                price: '15000.00',
+                price: '0',
                 availability: 'https://schema.org/InStock',
                 seller: {
                   '@type': 'Organization',
