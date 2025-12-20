@@ -79,7 +79,7 @@ export default function RootLayout({
                 '@type': 'Offer',
                 url: 'https://mishwari.com',
                 priceCurrency: 'USD',
-                price: '0',
+                price: '20000',
                 priceValidUntil: '2026-02-31',
                 availability: 'https://schema.org/InStock',
                 seller: {
