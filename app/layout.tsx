@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'language': 'en',
+    language: 'en',
   },
 };
 
@@ -80,6 +80,7 @@ export default function RootLayout({
                 url: 'https://mishwari.com',
                 priceCurrency: 'USD',
                 price: '0',
+                priceValidUntil: '2026-02-31',
                 availability: 'https://schema.org/InStock',
                 seller: {
                   '@type': 'Organization',
