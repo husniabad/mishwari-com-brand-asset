@@ -45,6 +45,9 @@ export const metadata: Metadata = {
       'ar-SA': 'https://mishwari.com',
     },
   },
+  other: {
+    'language': 'en',
+  },
 };
 
 export default function RootLayout({
