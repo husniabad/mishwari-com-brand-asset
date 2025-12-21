@@ -129,11 +129,11 @@ export default function Home() {
             <span>
               Verified owner:{' '}
               <a
-                href='https://yallabus.com'
+                href='https://yallabus.app'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:text-neutral-300 transition-colors'>
-                YallaBus.com
+                YallaBus.app
               </a>
             </span>
           </div>
