@@ -103,7 +103,7 @@ export default function Home() {
             {/* Right: CTA */}
             <div className='space-y-3'>
               <a
-                href='mailto:contact@yallabus.com?subject=Acquisition Inquiry: Mishwari.com'
+                href='mailto:admin@yallabus.app?subject=Acquisition Inquiry: Mishwari.com'
                 className='group w-full flex items-center justify-center gap-2 bg-white text-black hover:bg-neutral-200 transition-all py-3 px-4 rounded-xl font-bold text-sm md:text-base'>
                 <Mail size={16} />
                 <span>Make an Offer</span>

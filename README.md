@@ -16,4 +16,4 @@ This landing page is built with:
 * Tailwind CSS
 * Framer Motion
 
-[Visit the live site](https://mishwari.com) to see the animation and potential brand identity.
+[Visit the live site](https://mishwari.com) to see the animation and potential brand identity.****

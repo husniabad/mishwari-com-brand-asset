@@ -14,39 +14,58 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'مشواري | mishwari',
+  title: 'Mishwari.com (مشواري) - Premium Arabic Domain for Sale',
   description:
-    'Mishwari (مشواري) is the definitive Arabic brand for "My Journey". This premium .com domain is available for acquisition. Contact the developers.',
+    'Premium Arabic domain Mishwari.com (مشواري - My Journey) for sale. Perfect for ride-hailing, logistics, HR tech, and fintech startups in Saudi Arabia, UAE, Qatar, and MENA region. Secure transfer via Escrow.com.',
   icons: {
     icon: '/yallabuslogo.jpeg',
   },
   keywords: [
     'Mishwari',
-    'Meshwari',
     'مشواري',
-    'Domain for sale',
-    'Premium Arabic Domain',
-    'Logistics Brand',
-    'Transport App Name',
-    'Saudi Startup Naming',
+    'domain for sale',
+    'premium domain',
+    'Arabic domain',
+    'Saudi Arabia domain',
+    'UAE domain',
+    'ride-hailing domain',
+    'logistics domain',
+    'transport app',
+    'MENA startup',
+    'GCC domain',
+    'fintech domain',
+    'HR tech domain',
   ],
   openGraph: {
-    title: 'Mishwari.com (مشواري) - Premium Asset',
+    title: 'Mishwari.com (مشواري) - Premium Arabic Domain for Sale',
     description:
-      'The definitive Arabic dictionary term for "My Journey". Available for acquisition.',
+      'Premium Arabic domain for ride-hailing, logistics, and fintech. Perfect for Saudi Arabia, UAE, and MENA startups.',
     url: 'https://mishwari.com',
     siteName: 'Mishwari.com',
-    locale: 'ar_SA',
+    locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: 'https://mishwari.com/yallabuslogo.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Mishwari.com Premium Domain',
+      },
+    ],
   },
   alternates: {
     languages: {
-      'en-US': 'https://mishwari.com',
-      'ar-SA': 'https://mishwari.com',
+      'en': 'https://mishwari.com',
+      'ar': 'https://mishwari.com',
     },
   },
-  other: {
-    language: 'en',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
