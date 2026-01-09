@@ -4,7 +4,7 @@ export async function POST(request: Request) {
   const { url } = await request.json();
   
   const indexNowUrl = 'https://api.indexnow.org/indexnow';
-  const key = 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6';
+  const key = 'a4db227afacb41f79feebbfa1627593d';
   const keyLocation = `https://mishwari.com/${key}.txt`;
 
   try {
