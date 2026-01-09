@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Mishwari.com (مشواري) - Premium Arabic Domain for Sale',
   description:
-    'Premium Arabic domain Mishwari.com (مشواري - My Journey) for sale. Perfect for ride-hailing, logistics, HR tech, and fintech startups in Saudi Arabia, UAE, Qatar, and MENA region. Secure transfer via Escrow.com.',
+    'Premium Arabic domain Mishwari.com (مشواري) for sale. Perfect for ride-hailing, logistics, fintech startups in Saudi Arabia, UAE, Qatar. Escrow transfer.',
   icons: {
     icon: '/yallabuslogo.jpeg',
   },
