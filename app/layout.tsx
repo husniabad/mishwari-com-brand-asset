@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   description:
     'Premium Arabic domain Mishwari.com (مشواري) for sale. Perfect for ride-hailing, logistics, fintech startups in Saudi Arabia, UAE, Qatar. Escrow transfer.',
   icons: {
-    icon: '/yallabuslogo.jpeg',
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
   keywords: [
     'Mishwari',
@@ -46,9 +50,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://mishwari.com/yallabuslogo.jpeg',
-        width: 1200,
-        height: 630,
+        url: 'https://mishwari.com/android-chrome-512x512.png',
+        width: 512,
+        height: 512,
         alt: 'Mishwari.com Premium Domain',
       },
     ],
