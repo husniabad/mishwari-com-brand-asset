@@ -8,7 +8,7 @@ This repository contains the high-performance Next.js landing page for the premi
 * **Meaning:** "My Journey" or "My Errand" (Arabic).
 * **Target Industries:** Logistics, Ride-hailing, HR Tech, Fintech.
 * **Status:** Available for acquisition.
-* **Transfer:** Secured via Escrow.com.
+* **Transfer:** Secure checkout available through GoDaddy/Afternic after agreement.
 
 ## 🚀 Tech Stack
 This landing page is built with:

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'mishwari.com is available | مشواري',
   description:
-    'Mishwari.com is available. A memorable Arabic name for mobility, delivery, hiring, and fintech products. Secure transfer available via Escrow.com.',
+    'Mishwari.com is available. A memorable Arabic name for mobility, delivery, hiring, and fintech products. Secure checkout available through GoDaddy/Afternic after agreement.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },

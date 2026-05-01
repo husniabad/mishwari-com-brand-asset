@@ -31,7 +31,7 @@ export default function Home() {
           <p>mishwari.com is available</p>
           <div className='inline-flex items-center gap-2 text-neutral-500'>
             <Lock size={12} />
-            <span>Secure transfer available via Escrow.com</span>
+            <span>Secure checkout available through GoDaddy/Afternic after agreement</span>
           </div>
         </div>
 
