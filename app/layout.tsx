@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Mishwari.com (مشواري) - Premium Arabic Domain for Sale',
+  title: 'mishwari.com is available | مشواري',
   description:
-    'Premium Arabic domain Mishwari.com (مشواري) for sale. Perfect for ride-hailing, logistics, fintech startups in Saudi Arabia, UAE, Qatar. Escrow transfer.',
+    'Mishwari.com is available. A memorable Arabic name for mobility, delivery, hiring, and fintech products. Secure transfer available via Escrow.com.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -30,24 +30,22 @@ export const metadata: Metadata = {
     'Mishwari',
     'مشواري',
     'domain for sale',
-    'premium domain',
-    'Arabic domain',
+    'Arabic domain name',
     'Saudi Arabia domain',
     'UAE domain',
-    'ride-hailing domain',
-    'logistics domain',
-    'transport app',
+    'mobility domain',
+    'delivery domain',
+    'recruitment domain',
+    'fintech domain',
     'MENA startup',
     'GCC domain',
-    'fintech domain',
-    'HR tech domain',
   ],
   openGraph: {
-    title: 'Mishwari.com (مشواري) - Premium Arabic Domain for Sale',
+    title: 'mishwari.com is available | مشواري',
     description:
-      'Premium Arabic domain for ride-hailing, logistics, and fintech. Perfect for Saudi Arabia, UAE, and MENA startups.',
+      'A memorable Arabic name for mobility, delivery, hiring, and fintech products.',
     url: 'https://mishwari.com',
-    siteName: 'Mishwari.com',
+    siteName: 'mishwari.com',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -55,14 +53,14 @@ export const metadata: Metadata = {
         url: 'https://mishwari.com/android-chrome-192x192.png',
         width: 192,
         height: 192,
-        alt: 'Mishwari.com Premium Domain',
+        alt: 'mishwari.com domain',
       },
     ],
   },
   alternates: {
     languages: {
-      'en': 'https://mishwari.com',
-      'ar': 'https://mishwari.com',
+      en: 'https://mishwari.com',
+      ar: 'https://mishwari.com',
     },
   },
   robots: {
@@ -91,26 +89,22 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'Product',
-              name: 'Mishwari.com Premium Domain',
+              '@type': 'WebPage',
+              name: 'mishwari.com is available',
               description:
-                'The premium internet domain name Mishwari.com (مشواري) is available for transfer.',
-              image: 'https://mishwari.com/yallabuslogo.jpeg',
-              brand: {
-                '@type': 'Brand',
-                name: 'Mishwari',
+                'Mishwari.com (مشواري) is an Arabic domain name available for acquisition.',
+              url: 'https://mishwari.com',
+              inLanguage: ['en', 'ar'],
+              mainEntity: {
+                '@type': 'Thing',
+                name: 'Mishwari.com',
+                alternateName: 'مشواري',
+                description:
+                  'Mishwari means "my journey" or "my errand" in Arabic.',
               },
-              offers: {
-                '@type': 'Offer',
-                url: 'https://mishwari.com',
-                priceCurrency: 'USD',
-                price: '20000',
-                priceValidUntil: '2026-02-31',
-                availability: 'https://schema.org/InStock',
-                seller: {
-                  '@type': 'Organization',
-                  name: 'YallaBus Developers',
-                },
+              potentialAction: {
+                '@type': 'CommunicateAction',
+                target: 'mailto:contact@mishwari.com',
               },
             }),
           }}
